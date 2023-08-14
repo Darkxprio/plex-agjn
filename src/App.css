@@ -1,7 +1,7 @@
 .main {
   text-align: center;
   background: linear-gradient(45deg, #43a9f3, #dc53ad, #a59fde);
-  height: 100vh;
+  height: max-content;
 }
 
 .main h1 {
