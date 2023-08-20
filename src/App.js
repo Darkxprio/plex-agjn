@@ -150,6 +150,7 @@ function App() {
       movie.name.toLowerCase().includes(input.toLowerCase())
     );
     setFilteredMovies(filtered);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [input]);
 
   return (
