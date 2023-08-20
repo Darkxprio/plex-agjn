@@ -57,6 +57,7 @@ import vecinoGruñon from "./img/Un-vecino-grunon-Poster.webp";
 import nocheRoxbury from "./img/Una-noche-Roxbury.jpg";
 import wifeLike from "./img/WifeLike.jpg";
 import meg2 from "./img/meg-2.jpg";
+import { useEffect, useState } from "react";
 
 function App() {
   const movies = [
@@ -131,12 +132,33 @@ function App() {
     { name: "Una noche en el Roxbury", link: nocheRoxbury },
     { name: "Wifelike", link: wifeLike },
   ];
+  const [input, setInput] = useState("");
+  const [filteredMovies, setFilteredMovies] = useState(movies);
+
+  const handleInput = (e) => {
+    e.preventDefault();
+    setInput(e.target.value);
+  };
+
+  useEffect(() => {
+    const filtered = movies.filter((movie) =>
+      movie.name.toLowerCase().includes(input.toLowerCase())
+    );
+    setFilteredMovies(filtered);
+  }, [input]);
+
   return (
     <div className="main">
       <h1>CARTELERA DE PLEX</h1>
+      <div>
+        <h3>
+          BUSCAR PELICULA:{" "}
+          <input type="text" value={input} onChange={handleInput} />
+        </h3>
+      </div>
       <div className="poster-container">
-        {movies.map((movie) => (
-          <div>
+        {filteredMovies.map((movie) => (
+          <div key={movie.name}>
             <img src={movie.link} alt={movie.name} className="img-poster" />
             <h4>{movie.name}</h4>
           </div>
