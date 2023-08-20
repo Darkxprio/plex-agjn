@@ -1,4 +1,5 @@
 import "./App.css";
+import vicFrank from "./img/victor-frankestein.webp";
 import sombras from "./img/cincuenta-sombras-liberadas.jpeg";
 import avatar2 from "./img/avatar-2.jpg";
 import barbie from "./img/barbie.jpg";
@@ -61,6 +62,10 @@ import { useEffect, useState } from "react";
 
 function App() {
   const movies = [
+    {
+      name: "Victor Frankestein",
+      link: vicFrank,
+    },
     {
       name: "Megalodón 2",
       link: meg2,
