@@ -56,9 +56,14 @@ import gatoCallejeroBob from "./img/El-gato-botas.jpg";
 import vecinoGruñon from "./img/Un-vecino-grunon-Poster.webp";
 import nocheRoxbury from "./img/Una-noche-Roxbury.jpg";
 import wifeLike from "./img/WifeLike.jpg";
+import meg2 from "./img/meg-2.jpg";
 
 function App() {
   const movies = [
+    {
+      name: "Megalodón 2",
+      link: meg2,
+    },
     {
       name: "Cincuenta sombras liberadas",
       link: sombras,
