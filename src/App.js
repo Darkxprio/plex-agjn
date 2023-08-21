@@ -1,4 +1,14 @@
 import "./App.css";
+import tomate4 from "./img/tomate-4.jpg";
+import tomate3 from "./img/tomates-3.jpg";
+import tomate2 from "./img/tomates-2.jpg";
+import tomate1 from "./img/tomates-1.jpg";
+import cri4 from "./img/cri-4.jpg";
+import cri3 from "./img/cri-3.jpg";
+import cri2 from "./img/cri-2.jpg";
+import cri1 from "./img/cri1.jpeg";
+import grem2 from "./img/Gremlins-2.jpg";
+import grem1 from "./img/Gremlins.jpg";
 import vicFrank from "./img/victor-frankestein.webp";
 import sombras from "./img/cincuenta-sombras-liberadas.jpeg";
 import avatar2 from "./img/avatar-2.jpg";
@@ -62,6 +72,46 @@ import { useEffect, useState } from "react";
 
 function App() {
   const movies = [
+    {
+      name: "La venganza de los tomates asesinos 4",
+      link: tomate4,
+    },
+    {
+      name: "La venganza de los tomates asesinos 3",
+      link: tomate3,
+    },
+    {
+      name: "La venganza de los tomates asesinos 2",
+      link: tomate2,
+    },
+    {
+      name: "La venganza de los tomates asesinos 1",
+      link: tomate1,
+    },
+    {
+      name: "Critters 4",
+      link: cri4,
+    },
+    {
+      name: "Critters 3",
+      link: cri3,
+    },
+    {
+      name: "Critters 2",
+      link: cri2,
+    },
+    {
+      name: "Critters 1",
+      link: cri1,
+    },
+    {
+      name: "Gremlins 2",
+      link: grem2,
+    },
+    {
+      name: "Gremlins 1",
+      link: grem1,
+    },
     {
       name: "Victor Frankestein",
       link: vicFrank,
