@@ -28,6 +28,11 @@ body {
 }
 
 @media (max-width: 720px) {
+
+  .img-poster {
+    height: 120px;
+  }
+
   .poster-container {
     grid-template-columns: 1fr 1fr 1fr; 
   }
