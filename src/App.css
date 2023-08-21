@@ -1,7 +1,6 @@
 body {
   background: linear-gradient(45deg, #43a9f3, #dc53ad, #a59fde);
   min-height: 100vh;
-  /* min-width: 100vh; */
 }
 
 .main {
@@ -28,7 +27,7 @@ body {
   margin-bottom: 2rem;
 }
 
-@media (max-width: 750px) {
+@media (max-width: 720px) {
   .poster-container {
     grid-template-columns: 1fr 1fr 1fr; 
   }
