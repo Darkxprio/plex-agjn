@@ -3,6 +3,7 @@ import tomate4 from "./img/tomate-4.jpg";
 import tomate3 from "./img/tomates-3.jpg";
 import tomate2 from "./img/tomates-2.jpg";
 import tomate1 from "./img/tomates-1.jpg";
+import cri5 from "./img/cri-5.jpg";
 import cri4 from "./img/cri-4.jpg";
 import cri3 from "./img/cri-3.jpg";
 import cri2 from "./img/cri-2.jpg";
@@ -87,6 +88,10 @@ function App() {
     {
       name: "La venganza de los tomates asesinos 1",
       link: tomate1,
+    },
+    {
+      name: "Critters 5",
+      link: cri5,
     },
     {
       name: "Critters 4",
