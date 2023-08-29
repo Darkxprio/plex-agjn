@@ -1,4 +1,5 @@
 import "./App.css";
+import solteraCasada from "./img/soltera-casada.jpeg";
 import tomate4 from "./img/tomate-4.jpg";
 import tomate3 from "./img/tomates-3.jpg";
 import tomate2 from "./img/tomates-2.jpg";
@@ -73,6 +74,10 @@ import { useEffect, useState } from "react";
 
 function App() {
   const movies = [
+    {
+      name: "Soltera, casada, viuda, divorciada",
+      link: solteraCasada,
+    },
     {
       name: "La venganza de los tomates asesinos 4",
       link: tomate4,
