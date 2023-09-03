@@ -1,4 +1,5 @@
 import "./App.css";
+import padreHijo from "./img/padre-hijo.webp";
 import solteraCasada from "./img/soltera-casada.jpeg";
 import tomate4 from "./img/tomate-4.jpg";
 import tomate3 from "./img/tomates-3.jpg";
@@ -74,6 +75,10 @@ import { useEffect, useState } from "react";
 
 function App() {
   const movies = [
+    {
+      name: "De tal padre, tal hijo",
+      link: padreHijo,
+    },
     {
       name: "Soltera, casada, viuda, divorciada",
       link: solteraCasada,
