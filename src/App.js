@@ -1,4 +1,6 @@
 import "./App.css";
+import calabozos from "./img/calabozos.jpg";
+import contraImposible from "./img/contraImposible.jpeg";
 import padreHijo from "./img/padre-hijo.webp";
 import solteraCasada from "./img/soltera-casada.jpeg";
 import tomate4 from "./img/tomate-4.jpg";
@@ -75,6 +77,14 @@ import { useEffect, useState } from "react";
 
 function App() {
   const movies = [
+    {
+      name: "Contra lo imposible",
+      link: contraImposible,
+    },
+    {
+      name: "Calabozos & Dragones: Honor entre ladrones",
+      link: calabozos,
+    },
     {
       name: "De tal padre, tal hijo",
       link: padreHijo,
