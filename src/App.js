@@ -1,4 +1,5 @@
 import "./App.css";
+import monja1 from "./img/monja-1.jpg";
 import calabozos from "./img/calabozos.jpg";
 import contraImposible from "./img/contraImposible.jpeg";
 import padreHijo from "./img/padre-hijo.webp";
@@ -77,6 +78,10 @@ import { useEffect, useState } from "react";
 
 function App() {
   const movies = [
+    {
+      name: "La monja",
+      link: monja1,
+    },
     {
       name: "Contra lo imposible",
       link: contraImposible,
