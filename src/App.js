@@ -1,5 +1,6 @@
 import "./App.css";
 import monja1 from "./img/monja-1.jpg";
+import monja2 from "./img/monja-2.jpeg";
 import calabozos from "./img/calabozos.jpg";
 import contraImposible from "./img/contraImposible.jpeg";
 import padreHijo from "./img/padre-hijo.webp";
@@ -78,6 +79,10 @@ import { useEffect, useState } from "react";
 
 function App() {
   const movies = [
+    {
+      name: "La monja 2",
+      link: monja2,
+    },
     {
       name: "La monja",
       link: monja1,
