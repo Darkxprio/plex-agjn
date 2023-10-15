@@ -1,5 +1,7 @@
 import "./App.css";
+import arrastrameInfierno from "./img/Arrastrame-infierno.jpg";
 import monja1 from "./img/monja-1.jpg";
+import hablame from "./img/hablame.jpg";
 import saw10 from "./img/saw-x.webp";
 import monja2 from "./img/monja-2.jpeg";
 import calabozos from "./img/calabozos.jpg";
@@ -81,8 +83,16 @@ import { useEffect, useState } from "react";
 function App() {
   const movies = [
     {
+      name: "Arrastrame al infierno",
+      link: arrastrameInfierno,
+    },
+    {
       name: "SAW X",
       link: saw10,
+    },
+    {
+      name: "Háblame",
+      link: hablame,
     },
     {
       name: "La monja 2",
