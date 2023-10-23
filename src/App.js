@@ -1,4 +1,5 @@
 import "./App.css";
+import exorcistaCreyente from "./img/exorcista-creyente.webp";
 import arrastrameInfierno from "./img/Arrastrame-infierno.jpg";
 import monja1 from "./img/monja-1.jpg";
 import hablame from "./img/hablame.jpg";
@@ -82,6 +83,10 @@ import { useEffect, useState } from "react";
 
 function App() {
   const movies = [
+    {
+      name: "El exorcista: Creyentes",
+      link: exorcistaCreyente,
+    },
     {
       name: "Arrastrame al infierno",
       link: arrastrameInfierno,
