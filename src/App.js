@@ -1,4 +1,5 @@
 import "./App.css";
+import horas12 from "./img/12_horas_para_el_fin_del_mundo.webp";
 import exorcistaCreyente from "./img/exorcista-creyente.webp";
 import arrastrameInfierno from "./img/Arrastrame-infierno.jpg";
 import monja1 from "./img/monja-1.jpg";
@@ -83,6 +84,10 @@ import { useEffect, useState } from "react";
 
 function App() {
   const movies = [
+    {
+      name: "12 Horas para el fin del mundo",
+      link: horas12,
+    },
     {
       name: "El exorcista: Creyentes",
       link: exorcistaCreyente,
