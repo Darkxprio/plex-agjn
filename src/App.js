@@ -1,4 +1,5 @@
 import "./App.css";
+import fnaf from "./img/FNAF.jpg";
 import horas12 from "./img/12_horas_para_el_fin_del_mundo.webp";
 import exorcistaCreyente from "./img/exorcista-creyente.webp";
 import arrastrameInfierno from "./img/Arrastrame-infierno.jpg";
@@ -84,6 +85,10 @@ import { useEffect, useState } from "react";
 
 function App() {
   const movies = [
+    {
+      name: "Five Nights at Freddy's",
+      link: fnaf,
+    },
     {
       name: "12 Horas para el fin del mundo",
       link: horas12,
