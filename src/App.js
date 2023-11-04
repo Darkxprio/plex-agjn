@@ -1,4 +1,5 @@
 import "./App.css";
+import enzo from "./img/enzo.jpg";
 import fnaf from "./img/FNAF.jpg";
 import horas12 from "./img/12_horas_para_el_fin_del_mundo.webp";
 import exorcistaCreyente from "./img/exorcista-creyente.webp";
@@ -85,6 +86,10 @@ import { useEffect, useState } from "react";
 
 function App() {
   const movies = [
+    {
+      name: "Mi amigo Enzo",
+      link: enzo,
+    },
     {
       name: "Five Nights at Freddy's",
       link: fnaf,
