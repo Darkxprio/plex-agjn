@@ -1,7 +1,7 @@
 import "./App.css";
 import trolls3 from "./img/Trolls3.webp";
 import grinch2000 from "./img/Grinch-2000.jpg";
-import enzo from "./img/enzo.jpg";
+import enzo from "./img/enzo.jpeg";
 import fnaf from "./img/FNAF.jpg";
 import horas12 from "./img/12_horas_para_el_fin_del_mundo.webp";
 import exorcistaCreyente from "./img/exorcista-creyente.webp";
