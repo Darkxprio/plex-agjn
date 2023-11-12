@@ -89,7 +89,7 @@ import { useEffect, useState } from "react";
 function App() {
   const movies = [
     {
-      name: "El Grinch",
+      name: "El Grinch 2000",
       link: grinch2000,
     },
     {
